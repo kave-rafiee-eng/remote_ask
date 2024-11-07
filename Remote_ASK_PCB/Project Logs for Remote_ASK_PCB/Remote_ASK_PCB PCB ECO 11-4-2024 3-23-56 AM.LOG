@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=2 Old Footprint=micro_switch_smd New Footprint=micro_sw
+Added Member To Class: ClassName=Remote_ASK_PCB Member=Component C? cap-electrolit
+Added Room: Name=Remote_ASK_PCB

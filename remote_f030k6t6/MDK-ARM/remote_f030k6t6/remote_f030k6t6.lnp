@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+"remote_f030k6t6\startup_stm32f030x6.o"
+"remote_f030k6t6\main.o"
+"remote_f030k6t6\stm32f0xx_it.o"
+"remote_f030k6t6\stm32f0xx_hal_msp.o"
+"remote_f030k6t6\stm32f0xx_hal_tim.o"
+"remote_f030k6t6\stm32f0xx_hal_tim_ex.o"
+"remote_f030k6t6\stm32f0xx_ll_rcc.o"
+"remote_f030k6t6\stm32f0xx_ll_utils.o"
+"remote_f030k6t6\stm32f0xx_ll_exti.o"
+"remote_f030k6t6\stm32f0xx_hal_rcc.o"
+"remote_f030k6t6\stm32f0xx_hal_rcc_ex.o"
+"remote_f030k6t6\stm32f0xx_hal.o"
+"remote_f030k6t6\stm32f0xx_hal_i2c.o"
+"remote_f030k6t6\stm32f0xx_hal_i2c_ex.o"
+"remote_f030k6t6\stm32f0xx_hal_gpio.o"
+"remote_f030k6t6\stm32f0xx_hal_dma.o"
+"remote_f030k6t6\stm32f0xx_hal_cortex.o"
+"remote_f030k6t6\stm32f0xx_hal_pwr.o"
+"remote_f030k6t6\stm32f0xx_hal_pwr_ex.o"
+"remote_f030k6t6\stm32f0xx_hal_flash.o"
+"remote_f030k6t6\stm32f0xx_hal_flash_ex.o"
+"remote_f030k6t6\stm32f0xx_hal_exti.o"
+"remote_f030k6t6\system_stm32f0xx.o"
+--strict --scatter "remote_f030k6t6\remote_f030k6t6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "remote_f030k6t6.map" -o remote_f030k6t6\remote_f030k6t6.axf

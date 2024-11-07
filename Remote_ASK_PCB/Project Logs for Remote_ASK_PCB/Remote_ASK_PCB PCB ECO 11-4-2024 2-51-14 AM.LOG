@@ -1,0 +1,108 @@
+Added Component: Designator=2(micro_sw)
+Added Component: Designator=BZ1(BUZZER-5V)
+Added Component: Designator=C1(CAP-0603)
+Added Component: Designator=C2(CAP-0805)
+Added Component: Designator=C3(CAP-0805)
+Added Component: Designator=C4(CAP-0603)
+Added Component: Designator=C?(CAP-0603)
+Added Component: Designator=C?(Tantalum Case B)
+Added Component: Designator=LED1(LED/0805)
+Added Component: Designator=LED2(led/3MM/DIP)
+Added Component: Designator=MCU1(stm32G030F6P6)
+Added Component: Designator=OP1(pc817)
+Added Component: Designator=opto(CONECTOR/XH/2PIN)
+Added Component: Designator=POWER(CONECTOR/XH/2PIN)
+Added Component: Designator=PROG1(XH3)
+Added Component: Designator=R1(RES/0603)
+Added Component: Designator=R2(RES/0603)
+Added Component: Designator=R3(RES/0603)
+Added Component: Designator=R4(RES/0603)
+Added Component: Designator=R5(RES/0603)
+Added Component: Designator=R6(RES/0603)
+Added Component: Designator=R7(RES/0603)
+Added Component: Designator=RG1(AMS1117)
+Added Component: Designator=RXB61(ask_reciver)
+Added Component: Designator=T1(SOT23)
+Added Pin To Net: NetName=+3.3 Pin=C1-1
+Added Pin To Net: NetName=+3.3 Pin=C3-2
+Added Pin To Net: NetName=+3.3 Pin=MCU1-4
+Added Pin To Net: NetName=+3.3 Pin=R1-2
+Added Pin To Net: NetName=+3.3 Pin=R2-2
+Added Pin To Net: NetName=+3.3 Pin=R4-1
+Added Pin To Net: NetName=+3.3 Pin=RG1-2
+Added Pin To Net: NetName=+3.3 Pin=RG1-4
+Added Net: Name=+3.3
+Added Pin To Net: NetName=+5 Pin=BZ1-P
+Added Pin To Net: NetName=+5 Pin=C2-2
+Added Pin To Net: NetName=+5 Pin=C?-2
+Added Pin To Net: NetName=+5 Pin=C?-+
+Added Pin To Net: NetName=+5 Pin=POWER-2
+Added Pin To Net: NetName=+5 Pin=RG1-3
+Added Pin To Net: NetName=+5 Pin=RXB61-vcc
+Added Net: Name=+5
+Added Pin To Net: NetName=BZ Pin=R6-1
+Added Net: Name=BZ
+Added Pin To Net: NetName=data Pin=RXB61-data
+Added Pin To Net: NetName=data Pin=RXB61-data
+Added Net: Name=data
+Added Pin To Net: NetName=GND Pin=2-1
+Added Pin To Net: NetName=GND Pin=2-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=GND Pin=C?--
+Added Pin To Net: NetName=GND Pin=LED1-K
+Added Pin To Net: NetName=GND Pin=LED2-K
+Added Pin To Net: NetName=GND Pin=MCU1-5
+Added Pin To Net: NetName=GND Pin=OP1-2
+Added Pin To Net: NetName=GND Pin=POWER-1
+Added Pin To Net: NetName=GND Pin=PROG1-1
+Added Pin To Net: NetName=GND Pin=R5-2
+Added Pin To Net: NetName=GND Pin=RG1-1
+Added Pin To Net: NetName=GND Pin=RXB61-gnd
+Added Pin To Net: NetName=GND Pin=T1-3
+Added Net: Name=GND
+Added Pin To Net: NetName=LED Pin=R3-2
+Added Net: Name=LED
+Added Pin To Net: NetName=NetBZ1_N Pin=BZ1-N
+Added Pin To Net: NetName=NetBZ1_N Pin=T1-2
+Added Net: Name=NetBZ1_N
+Added Pin To Net: NetName=NetC4_1 Pin=C4-1
+Added Pin To Net: NetName=NetC4_1 Pin=MCU1-6
+Added Pin To Net: NetName=NetC4_1 Pin=R4-2
+Added Net: Name=NetC4_1
+Added Pin To Net: NetName=NetLED1_A Pin=LED1-A
+Added Pin To Net: NetName=NetLED1_A Pin=R2-1
+Added Net: Name=NetLED1_A
+Added Pin To Net: NetName=NetLED2_A Pin=LED2-A
+Added Pin To Net: NetName=NetLED2_A Pin=R3-1
+Added Net: Name=NetLED2_A
+Added Pin To Net: NetName=NetOP1_1 Pin=OP1-1
+Added Pin To Net: NetName=NetOP1_1 Pin=R7-2
+Added Net: Name=NetOP1_1
+Added Pin To Net: NetName=NetOP1_3 Pin=OP1-3
+Added Pin To Net: NetName=NetOP1_3 Pin=opto-2
+Added Net: Name=NetOP1_3
+Added Pin To Net: NetName=NetOP1_4 Pin=OP1-4
+Added Pin To Net: NetName=NetOP1_4 Pin=opto-1
+Added Net: Name=NetOP1_4
+Added Pin To Net: NetName=NetR5_1 Pin=R5-1
+Added Pin To Net: NetName=NetR5_1 Pin=R6-2
+Added Pin To Net: NetName=NetR5_1 Pin=T1-1
+Added Net: Name=NetR5_1
+Added Pin To Net: NetName=OPTO Pin=R7-1
+Added Net: Name=OPTO
+Added Pin To Net: NetName=SWCLK Pin=MCU1-19
+Added Pin To Net: NetName=SWCLK Pin=PROG1-2
+Added Net: Name=SWCLK
+Added Pin To Net: NetName=SWDIO Pin=MCU1-18
+Added Pin To Net: NetName=SWDIO Pin=PROG1-3
+Added Net: Name=SWDIO
+Added Pin To Net: NetName=SW Pin=2-2
+Added Pin To Net: NetName=SW Pin=2-2
+Added Pin To Net: NetName=SW Pin=R1-1
+Added Net: Name=SW
+Added Class: Name=Remote_ASK_PCB
+Added Room: Name=Remote_ASK_PCB
